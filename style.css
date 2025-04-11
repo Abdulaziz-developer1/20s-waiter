@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: dimgray;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    height: 30px;
+}
+
+button{
+    padding: 10px 20px;
+    border: 3px solid;
+    border-radius: 5px;
+    background: transparent;
+}
